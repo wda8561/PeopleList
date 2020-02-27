@@ -1,0 +1,14 @@
+﻿@model IEnumerable<PeopleList.Models.People>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@foreach (PeopleList.Models.People b in Model)
+{
+    <li>@b.Name @b.Surname</li>
+}
+
+
+
+
+
+
